@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="src/main.css">
     <title>Manage Landing Page</title>
 </head>
-<body class="pb-10 pl-6 pr-6">
+<body>
     <!-- NacBars -->
      <nav class="relative container mx-auto p-6">
         <!-- Flex container -->
@@ -16,7 +16,7 @@
                 <img src="img/logo.svg" alt="">
             </div>
             <!-- Menu items -->
-             <div class="hidden space-x-6 sm:flex">
+             <div class="hidden space-x-6 md:flex">
                 <a href="#" class="hover:text-darkGrayisBlue">Pricing</a>
                 <a href="#" class="hover:text-darkGrayisBlue">Product</a>
                 <a href="#" class="hover:text-darkGrayisBlue">About Us</a>
@@ -27,7 +27,7 @@
              <a href="#" class="hidden p-3 px-6 pt-2 text-white rounded-full baseline bg-brightRed hover:bg-brightRedLight md:block">Get Started</a>
 
              <!-- Hamburger Icon -->
-              <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+              <button id="menu-btn" class="open block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
                 <span class="hamburger-middle"></span>
                 <span class="hamburger-bottom"></span>
@@ -36,7 +36,7 @@
 
          <!-- Mobile menu -->
           <div class="md:hidden">
-            <div class="absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:slef-center left-6 right-6 drop-shadow-md" id="menu">
+            <div class="absolute flex flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:slef-center left-6 right-6 drop-shadow-md" id="menu">
                 <a href="#">Pricing</a>
                 <a href="#">Product</a>
                 <a href="#">About Us</a>
@@ -203,7 +203,7 @@
                 </div>
               </div>                            
         </section>
-
+            <!-- CTA section -->
         <section id="cta" class="bg-brightRed">
             <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
                 <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
