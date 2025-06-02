@@ -28,9 +28,22 @@
 
              <!-- Hamburger Icon -->
               <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-                
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
               </button>
          </div>
+
+         <!-- Mobile menu -->
+          <div class="md:hidden">
+            <div class="absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:slef-center left-6 right-6 drop-shadow-md" id="menu">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+            </div>
+          </div>
      </nav>
 
      <!-- Hero section -->
